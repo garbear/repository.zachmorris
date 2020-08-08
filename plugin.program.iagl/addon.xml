@@ -4,11 +4,10 @@
     <import addon="script.module.dateutil"/>
     <import addon="script.module.elementtree"/>
     <import addon="script.module.kodi-six"/>
-    <import addon="script.module.six"/>
     <import addon="script.module.requests"/>
     <import addon="script.module.routing"/>
     <import addon="plugin.video.youtube"/>
-    <import addon="vfs.libarchive"/>
+    <import addon="vfs.libarchive" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video game</provides>
